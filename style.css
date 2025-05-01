@@ -1,0 +1,211 @@
+/* Estilo Geral*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+body{
+    background-color: rgb(100, 243, 71); /*rgb(100, 243, 71) */
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+/* Estilo do Cabeçalho*/
+header{
+    height: 100px;
+    padding: 40 4%;
+
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header a{
+    color: rgb(161, 152, 152);
+    text-decoration: none;
+}
+header a:hover{
+    color: aliceblue;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0px 0px 8px cornsilk ;
+}
+
+/* Estilo do topo do site*/
+section.topo-do-site{
+    padding: 40px 4%;
+    margin-top: 70px;
+
+}
+section.topo-do-site img{
+    border-radius: 20%;
+}
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.topo-do-site h1{
+    color:aliceblue;
+    font-size: 42px;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: aliceblue;
+    margin: 30px 0;
+}
+.Btn-CITi button{
+    padding: 10px 40px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 15px;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0px 0px 8px cornsilk ;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+/* Estilo das especialidades/hobbies */
+section.especialidades{
+    padding: 40px 4%;
+}
+section.especialidades .flex {
+    gap: 60px; 
+}
+h2.titulo{
+    color: aliceblue;
+    margin-top: 100px;
+    font-size: 34px;
+    text-align: center;
+}
+
+.especialidades .hobbies-box{
+    color: aliceblue;
+    padding: 40px;
+    border: 2px solid #fff;
+    margin-top: 30px;
+    border-radius: 20px;
+    transition: .2s;
+}
+.especialidades .hobbies-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px color cornsilk;
+}
+
+.especialidades .hobbies-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.especialidades .hobbies-box img {
+    margin: 80px;
+}
+
+.especialidades .hobbies-box h3{
+    text-align: center;
+}
+
+/* Sobre */
+section.sobre{
+    padding: 40px 4%
+}
+section.sobre .flex{
+    align-items: center;
+    gap:60px;
+}
+.sobre .txt-sobre{
+    color: aliceblue;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.sobre .txt-sobre h2 span{
+    display: block;
+}
+
+.sobre .img-sobre img{
+    border-radius: 10%;
+}
+
+.sobre .txt-sobre p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.Btn-social button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    padding: 20px 4%;
+    box-shadow: 0 0 5px 5px #ffffff1d;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer p i{
+    color: aliceblue;
+    font-size: 22px;
+    margin-left: 10px;
+}
+footer .line-footer p a{
+    color: aliceblue;
+    margin-left: 10px;
+    
+}
+footer .logo-footer{
+    margin-left: 10px;
+}
